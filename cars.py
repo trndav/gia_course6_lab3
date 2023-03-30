@@ -25,7 +25,7 @@ def process_data(data):
   Returns a list of lines that summarize the information.
   """
     # locale.setlocale(locale.LC_ALL, "en_US.UTF8")
-    locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
+    locale.setlocale(locale.LC_ALL, "C.UTF-8")
     max_revenue = {"revenue": 0}
     max_sales = {"total_sales": 0}
     sales_by_year = {}
